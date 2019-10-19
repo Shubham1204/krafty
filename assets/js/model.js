@@ -14,7 +14,7 @@ function Item(category,id, name, price,discountprice, image,condition,arrival,se
 }
 
 var obj = {
-    "viewproductItem" : [],
+    "viewproduct" : [],
     "itemList" : [],
 
     addItem : function(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge){
@@ -26,9 +26,9 @@ var obj = {
 
     viewItem : function(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge){
         var item = new Item(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge);
-        this.viewproductItem.push(item);
+        this.viewproduct.push(item);
         console.log("product item: ");
-        console.log(this.viewproductItem);
+        console.log(this.viewproduct);
         // location.href="../pages/cart.html";
     }
 }

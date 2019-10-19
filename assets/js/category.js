@@ -13,7 +13,8 @@ function initEvents() {
     document.querySelector("#chocolate").addEventListener("click", chocolate);
     document.querySelector("#computer").addEventListener("click", computer);
     document.querySelector("#more").addEventListener("click", more);
-    loadCategory();
+    loadCategory(); 
+    // searchProduct();
     // displayAllProducts();
     
 }
@@ -142,6 +143,7 @@ function searchProduct(){
     productArray = productArray.filter(function(obj){
         return obj.name.toLowerCase().includes(toSearch.toLowerCase());
     });
+    // loadCategory();
     displayAllProducts();
 }
 
@@ -152,6 +154,7 @@ function displayAllProducts(){
     // li1.className="mx-auto";
     li1.className="active";
     ul1.appendChild(li1);
+    
     var ul = document.querySelector("#main-product");
     // ul.innerHTML="";
      for(var i=0;i< productArray.length;i++){
@@ -222,6 +225,14 @@ function viewProduct(){
         if (productArray[i].id == id) {
             obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].image);
             // console.log(productArray[i].category+" "+productArray[i].id+" "+ productArray[i].name+" "+productArray[i].price+" "+productArray[i].discountprice+" "+productArray[i].image);
+            if (window.localStorage) {
+                var json = JSON.stringify(productArray[i].id);
+                localStorage.setItem('product', json);
+            } else {
+                alert("Localstorage not supported");
+            }
+            window.location="product.html";
+            
             break
         }
     }

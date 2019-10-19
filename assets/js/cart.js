@@ -181,9 +181,9 @@ function displayCart(){
         var span =document.createElement("span");
         if(x.price!=0){
             if(x.price!="undefined"){
-        span.innerHTML="₹ "+x.price;
+                span.innerHTML="₹ "+x.price;
+            }
         }
-    }
         else{
             span.innerHTML="";
         }
@@ -199,6 +199,7 @@ function displayCart(){
 
         ul.appendChild(hr);
         ul.appendChild(li);
+        div1.addEventListener("click",viewProduct);
     })
 }
 else{
@@ -206,6 +207,30 @@ else{
     h3.innerHTML="Cart is Empty";
     ul.appendChild(h3);
 }
+}
+
+function viewProduct(){
+    var id = event.srcElement.parentElement.title;
+    // console.log(productArray[id]);
+    for (var i = 0; i < productArray.length; i++) {
+        if (productArray[i].id == id) {
+            obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].image,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
+            // console.log(productArray[i].category+" "+productArray[i].id+" "+ productArray[i].name+" "+productArray[i].price+" "+productArray[i].discountprice+" "+productArray[i].image);
+            if (window.localStorage) {
+                var json = JSON.stringify(productArray[i].id);
+                localStorage.setItem('product', json);
+            } else {
+                alert("Localstorage not supported");
+            }
+            window.location="product.html";
+            
+            break
+        }
+    }
+
+    // window.location,href="../pages/cart.html;  
+    
+    // console.log(id);   
 }
 
 function cart_total(){
