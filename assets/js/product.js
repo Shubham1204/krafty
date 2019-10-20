@@ -169,33 +169,6 @@ function displayProducts(){
   divc.appendChild(ac3);
   carousel();
     
-    // var div = document.querySelector("#carousel-slides");
-    // for(var i=0;i<productArray.length;i++){
-    //     if(productArray[i].id == my_product){
-    //         for(var j=0;j<productArray[i].images.length;j++){
-                // var div1 = document.createElement("div");
-    // div1.id           
-     // li.data-slide-to =j; 
-    //             div1.className="item";
-    //             var  img = document.createElement("img");
-    //             // if(productArray[i].images[1]){
-    //             //     div1.className="active";
-    //             //     img.src = productArray[i].image;
-    //             //     div1.appendChild(img);
-    //             // }
-    //             // li.data-slide-to=j;
-    //             // var  img = document.createElement("img");
-    //             // else{
-    //             img.src=productArray[i].images[j];
-    //             img.alt=productArray[i].id;
-    //             div1.appendChild(img);
-    //             // }
-    //             div.appendChild(div1);
-    //         }
-    //     }
-    // }
-
- 
     
     var div = document.querySelector("#product-detail");
     for(var i=0;i<productArray.length;i++){
@@ -225,7 +198,7 @@ function displayProducts(){
             
             var desc = document.createElement("desc");
             desc.className="text-secondary";
-            desc.innerHTML="lorem isgvhjbkngfhcvfbmnvjkb bv jhgbdfh gvjhdfsvchjgesdfhvgdsfv";
+            desc.innerHTML=productArray[i].desc;
             p2.appendChild(a3);
             p2.appendChild(desc);
 

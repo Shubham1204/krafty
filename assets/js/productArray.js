@@ -9,8 +9,7 @@ var productArray = [
         "price" : 87650,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/05TgV26w/chart1.jpg",
-        "images" :["https://i.postimg.cc/05TgV26w/chart1.jpg","https://i.postimg.cc/Pqt2S0zZ/chart2.jpg","https://i.postimg.cc/XYKscnF4/chart5.jpg"]
+        "images" : ["https://i.postimg.cc/05TgV26w/chart1.jpg","https://i.postimg.cc/05TgV26w/chart1.jpg","https://i.postimg.cc/Pqt2S0zZ/chart2.jpg","https://i.postimg.cc/XYKscnF4/chart5.jpg"]
     },
     {
         "category" : "chart",
@@ -22,8 +21,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/Pqt2S0zZ/chart2.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/Pqt2S0zZ/chart2.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -35,8 +33,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/xTMwhDHF/chart3.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/xTMwhDHF/chart3.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -48,8 +45,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/tRZQdVgb/chart4.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/tRZQdVgb/chart4.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -61,8 +57,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/XYKscnF4/chart5.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/XYKscnF4/chart5.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -74,8 +69,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/g0N4Q4N7/chart6.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/g0N4Q4N7/chart6.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -87,8 +81,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/z3ZkKQGy/chart7.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/z3ZkKQGy/chart7.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "chart",
@@ -100,8 +93,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/0QjZsm4y/chart8.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/0QjZsm4y/chart8.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -113,8 +105,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/bvN4ZZ5K/model1.jpg",
-        "images" : ["https://i.postimg.cc/c1V2n75y/model1-1.jpg","https://i.postimg.cc/bYG4rVg9/model1-2.jpg","https://i.postimg.cc/TYMNwdpT/model1-3.jpg","https://i.postimg.cc/Hk36Bb3L/model1-4.jpg","https://i.postimg.cc/W1s9G5GK/model1-5.jpg"]
+        "images" : ["https://i.postimg.cc/bvN4ZZ5K/model1.jpg","https://i.postimg.cc/c1V2n75y/model1-1.jpg","https://i.postimg.cc/bYG4rVg9/model1-2.jpg","https://i.postimg.cc/TYMNwdpT/model1-3.jpg","https://i.postimg.cc/Hk36Bb3L/model1-4.jpg","https://i.postimg.cc/W1s9G5GK/model1-5.jpg"]
     },
     {
         "category" : "model",
@@ -126,8 +117,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/nzX516p2/model2.jpg",
-        "images" : ["../images/model/model2_1.jpg","../images/model/model2_2.jpg","../images/model/model2_3.jpg"]
+        "images" : ["https://i.postimg.cc/nzX516p2/model2.jpg","../images/model/model2_1.jpg","../images/model/model2_2.jpg","../images/model/model2_3.jpg"]
     },
     {
         "category" : "model",
@@ -139,8 +129,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/bvCWkzcd/model3.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/bvCWkzcd/model3.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -152,8 +141,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/vZvp8r0r/model4.gif",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/vZvp8r0r/model4.gif","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -165,8 +153,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/SR7GLr2V/model4.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/SR7GLr2V/model4.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -178,8 +165,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/PfmKkt3Z/model5.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/PfmKkt3Z/model5.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -191,8 +177,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/zBh7v5qs/model6.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/zBh7v5qs/model6.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -204,8 +189,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/Bvr5dy2M/model7.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/Bvr5dy2M/model7.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -217,8 +201,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/fbtjqZSV/model8.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/fbtjqZSV/model8.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -230,8 +213,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/VsMZL96J/model9.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/VsMZL96J/model9.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -243,8 +225,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/ncGdqHqZ/model10.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/ncGdqHqZ/model10.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -256,8 +237,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/MGNtzXJ0/model11.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/MGNtzXJ0/model11.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -269,8 +249,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/TY67yyLC/model12.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/TY67yyLC/model12.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -282,8 +261,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/P5fS4BMD/model13.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/P5fS4BMD/model13.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -295,8 +273,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/P562F26R/model14.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/P562F26R/model14.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -308,8 +285,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/3wdnMmVJ/model15.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/3wdnMmVJ/model15.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -321,8 +297,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/prtZn7Tp/model16.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/prtZn7Tp/model16.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -334,8 +309,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/RVdRNgzZ/model17.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/RVdRNgzZ/model17.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -347,8 +321,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/VLmgf3ph/model18.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/VLmgf3ph/model18.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "model",
@@ -360,8 +333,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/y8NT90VX/model19.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/y8NT90VX/model19.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -373,8 +345,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/ydC9fRzG/poster1.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/ydC9fRzG/poster1.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -386,8 +357,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/rFsdNjrm/poster2.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/rFsdNjrm/poster2.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -399,8 +369,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/8ktJv9s9/poster3.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/8ktJv9s9/poster3.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -412,8 +381,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/xT1mFYW9/poster6.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/xT1mFYW9/poster6.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -425,8 +393,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/4dvcj3fx/poster7.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/4dvcj3fx/poster7.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -438,8 +405,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/90J7FNq3/poster8.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/90J7FNq3/poster8.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -451,8 +417,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/RCRfRqpP/poster9.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/RCRfRqpP/poster9.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -464,8 +429,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/5yxzJMyq/poster10.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/5yxzJMyq/poster10.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -477,8 +441,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/L6Q1cwpL/poster11.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/L6Q1cwpL/poster11.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -490,8 +453,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/7hs5yGpw/poster12.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/7hs5yGpw/poster12.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -503,8 +465,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/8cP73BXZ/poster14.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/8cP73BXZ/poster14.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -516,8 +477,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/wvzy5dX8/poster16.png",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/wvzy5dX8/poster16.png","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -529,8 +489,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/mg0FD9hr/poster19.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/mg0FD9hr/poster19.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -542,8 +501,7 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/zfKHRfRF/poster20.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/zfKHRfRF/poster20.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     },
     {
         "category" : "poster",
@@ -555,7 +513,6 @@ var productArray = [
         "price" : 0,
         "deliverycharge" : 0,
         "discountprice" : 200,
-        "image" : "https://i.postimg.cc/k4yVfhsV/poster21.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["https://i.postimg.cc/k4yVfhsV/poster21.jpg","https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
     }
 ]

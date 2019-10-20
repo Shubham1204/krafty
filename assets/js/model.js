@@ -1,10 +1,10 @@
-function Item(category,id, name, price,discountprice, image,condition,arrival,seller,deliverycharge) {
+function Item(category,id, name, price,discountprice, images,condition,arrival,seller,deliverycharge) {
     this.category =  category;
     this.id = id;
     this.name = name;
     this.price = price;
     this.discountprice = discountprice;
-    this.image = image;
+    this.images = images;
     this.category = category;
     this.condition = condition;
     this.arrival = arrival;
@@ -17,15 +17,15 @@ var obj = {
     "viewproduct" : [],
     "itemList" : [],
 
-    addItem : function(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge){
-        var item = new Item(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge);
+    addItem : function(category,id,name,price,discountprice,images,condition,arrival,seller,deliverycharge){
+        var item = new Item(category,id,name,price,discountprice,images,condition,arrival,seller,deliverycharge);
         this.itemList.push(item);
         console.log(item);
         console.log(this.itemList);
     },
 
-    viewItem : function(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge){
-        var item = new Item(category,id,name,price,discountprice,image,condition,arrival,seller,deliverycharge);
+    viewItem : function(category,id,name,price,discountprice,images,condition,arrival,seller,deliverycharge){
+        var item = new Item(category,id,name,price,discountprice,images,condition,arrival,seller,deliverycharge);
         this.viewproduct.push(item);
         console.log("product item: ");
         console.log(this.viewproduct);

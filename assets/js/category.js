@@ -168,7 +168,7 @@ function displayAllProducts(){
         // a1.href="cart.html";
         // a1.addEventListener("click",viewProduct);
         var img = document.createElement("img");
-        img.src=productArray[i].image;
+        img.src=productArray[i].images[0];
         img.alt=productArray[i].id;
         
         li.title = productArray[i].id;
@@ -223,7 +223,7 @@ function viewProduct(){
     // console.log(productArray[id]);
     for (var i = 0; i < productArray.length; i++) {
         if (productArray[i].id == id) {
-            obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].image);
+            obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].images,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
             // console.log(productArray[i].category+" "+productArray[i].id+" "+ productArray[i].name+" "+productArray[i].price+" "+productArray[i].discountprice+" "+productArray[i].image);
             if (window.localStorage) {
                 var json = JSON.stringify(productArray[i].id);
@@ -246,7 +246,7 @@ function addtoCart(){
     var id = event.srcElement.parentElement.title;
     for (var i = 0; i < productArray.length; i++) {
         if (productArray[i].id == id) {
-            obj.addItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].image,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
+            obj.addItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].images,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
             // console.log(productArray[i].category+" "+productArray[i].id+" "+ productArray[i].name+" "+productArray[i].price+" "+productArray[i].discountprice+" "+productArray[i].image);
             break
         }

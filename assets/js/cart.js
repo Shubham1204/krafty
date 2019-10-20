@@ -151,7 +151,7 @@ function displayCart(){
         var a = document.createElement("a");
         // a.href="#";
         var img = document.createElement("img");
-        img.src = x.image;
+        img.src = x.images[0];
         img.alt=x.id;
         a.appendChild(img);
         div1.appendChild(a);
@@ -214,7 +214,7 @@ function viewProduct(){
     // console.log(productArray[id]);
     for (var i = 0; i < productArray.length; i++) {
         if (productArray[i].id == id) {
-            obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].image,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
+            obj.viewItem(productArray[i].category,productArray[i].id, productArray[i].name,productArray[i].price,productArray[i].discountprice,productArray[i].images,productArray[i].condition,productArray[i].arrival,productArray[i].seller,productArray[i].deliverycharge);
             // console.log(productArray[i].category+" "+productArray[i].id+" "+ productArray[i].name+" "+productArray[i].price+" "+productArray[i].discountprice+" "+productArray[i].image);
             if (window.localStorage) {
                 var json = JSON.stringify(productArray[i].id);
