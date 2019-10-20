@@ -127,7 +127,7 @@ var productArray = [
         "deliverycharge" : 0,
         "discountprice" : 200,
         "image" : "https://i.postimg.cc/nzX516p2/model2.jpg",
-        "images" : ["https://i.postimg.cc/gkHs23CK/model3-1.jpg","https://i.postimg.cc/bwYTDs8f/model3-2.jpg"]
+        "images" : ["../images/model/model2_1.jpg","../images/model/model2_2.jpg","../images/model/model2_3.jpg"]
     },
     {
         "category" : "model",

@@ -147,12 +147,40 @@ function searchProduct(){
 
 function displayProducts(){
 
+  var divc = document.querySelector("#carousel");
+  for(var i=0;i<productArray.length;i++){
+    if(productArray[i].id==my_product){
+      for(var j=0;j<productArray[i].images.length;j++){
+        if(productArray[i].images[i]==productArray[i].images[0]){
+          var ac1 = document.createElement("a");
+           ac1.className="prev-arrow";
+           divc.appendChild(ac1);
+        }
+        var ac2 = document.createElement("a");
+        var img = document.createElement("img");
+        img.src=productArray[i].images[j];
+        img.alt=productArray[i].id+"_"+(j+1);
+        img.className="coverflow__image";
+        ac2.appendChild(img);
+        divc.appendChild(ac2);
+        if(productArray[i].images[i]==productArray[i].images[0]){
+          var ac2 = document.createElement("a");
+           ac2.className="next-arrow";
+           divc.appendChild(ac2);
+        }
+       
+      }
+    }
+  }
+  carousel();
+    
     // var div = document.querySelector("#carousel-slides");
     // for(var i=0;i<productArray.length;i++){
     //     if(productArray[i].id == my_product){
     //         for(var j=0;j<productArray[i].images.length;j++){
-    //             var div1 = document.createElement("div");
-    //             // li.data-slide-to =j; 
+                // var div1 = document.createElement("div");
+    // div1.id           
+     // li.data-slide-to =j; 
     //             div1.className="item";
     //             var  img = document.createElement("img");
     //             // if(productArray[i].images[1]){
@@ -329,4 +357,123 @@ function displaybanner(){
 
     div.appendChild(div1);
     }
+}
+
+
+function carousel(){
+  var a = document.getElementsByTagName("a");
+    var cfImg = document.getElementsByClassName("coverflow__image")
+    
+    var scaleI = 0;
+    for (scaleI; scaleI < a.length; scaleI++) {
+      if (scaleI === 3) {
+        continue;
+      } else {
+        a[scaleI].style.cursor = "default";
+        a[scaleI].addEventListener("click", prevDef);
+      }
+    }
+    
+    function prevDef(e) {
+      e.preventDefault();
+    }
+    
+    function forScale(coverflowPos) {
+      for (scaleI = 0; scaleI < a.length; scaleI++) {
+        a[scaleI].style.cursor = "default";
+        a[scaleI].addEventListener("click", prevDef);
+      }
+      for (scaleI = 0; scaleI < cfImg.length; scaleI++) {
+        if (cfImg[scaleI].getAttribute("data-coverflow-index") == coverflowPos) {
+          cfImg[scaleI].parentElement.style.cursor = "pointer";
+          cfImg[scaleI].parentElement.removeEventListener("click", prevDef);
+        }
+      }
+    }
+    //end added by Chase
+    
+    function setupCoverflow(coverflowContainer) {
+      var coverflowContainers;
+    
+      if (typeof coverflowContainer !== "undefined") {
+        if (Array.isArray(coverflowContainer)) {
+          coverflowContainers = coverflowContainer;
+        } else {
+          coverflowContainers = [coverflowContainer];
+        }
+      } else {
+        coverflowContainers = Array.prototype.slice.apply(document.getElementsByClassName('coverflow'));
+      }
+    
+      coverflowContainers.forEach(function(containerElement) {
+        var coverflow = {};
+        var prevArrows, nextArrows;
+    
+        //capture coverflow elements
+        coverflow.container = containerElement;
+        coverflow.images = Array.prototype.slice.apply(containerElement.getElementsByClassName('coverflow__image'));
+        coverflow.position = Math.floor(coverflow.images.length / 2) + 1;
+    
+        //set indicies on images
+        coverflow.images.forEach(function(coverflowImage, i) {
+          coverflowImage.dataset.coverflowIndex = i + 1;
+        });
+    
+        //set initial position
+        coverflow.container.dataset.coverflowPosition = coverflow.position;
+    
+        //get prev/next arrows
+        prevArrows = Array.prototype.slice.apply(coverflow.container.getElementsByClassName("prev-arrow"));
+        nextArrows = Array.prototype.slice.apply(coverflow.container.getElementsByClassName("next-arrow"));
+    
+        //add event handlers
+        function setPrevImage() {
+          coverflow.position = Math.max(1, coverflow.position - 1);
+          coverflow.container.dataset.coverflowPosition = coverflow.position;
+          //call the functin forScale added
+          forScale(coverflow.position);
+        }
+    
+        function setNextImage() {
+          coverflow.position = Math.min(coverflow.images.length, coverflow.position + 1);
+          coverflow.container.dataset.coverflowPosition = coverflow.position;
+          //call the function Chase added
+          forScale(coverflow.position);
+        }
+    
+        function jumpToImage(evt) {
+          coverflow.position = Math.min(coverflow.images.length, Math.max(1, evt.target.dataset.coverflowIndex));
+          coverflow.container.dataset.coverflowPosition = coverflow.position;
+          //start added by Chase
+          setTimeout(function() {
+            forScale(coverflow.position);
+          }, 1);
+          //end added by Chase
+        }
+    
+        function onKeyPress(evt) {
+          switch (evt.which) {
+            case 37: //left arrow
+              setPrevImage();
+              break;
+            case 39: //right arrow
+              setNextImage();
+              break;
+          }
+        }
+        prevArrows.forEach(function(prevArrow) {
+          prevArrow.addEventListener('click', setPrevImage);
+        });
+        nextArrows.forEach(function(nextArrow) {
+          nextArrow.addEventListener('click', setNextImage);
+        });
+        coverflow.images.forEach(function(image) {
+          image.addEventListener('click', jumpToImage);
+        });
+        window.addEventListener('keyup', onKeyPress);
+      });
+    }
+    
+    setupCoverflow();
+    
 }
