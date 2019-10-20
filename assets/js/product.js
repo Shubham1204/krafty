@@ -164,9 +164,9 @@ function displayProducts(){
       }
     }
   }
-  var ac2 = document.createElement("a");
-  ac2.className="next-arrow";
-  divc.appendChild(ac2);
+  var ac3 = document.createElement("a");
+  ac3.className="next-arrow";
+  divc.appendChild(ac3);
   carousel();
     
     // var div = document.querySelector("#carousel-slides");
