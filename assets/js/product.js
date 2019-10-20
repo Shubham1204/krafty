@@ -148,14 +148,12 @@ function searchProduct(){
 function displayProducts(){
 
   var divc = document.querySelector("#carousel");
+  var ac1 = document.createElement("a");
+  ac1.className="prev-arrow";
+  divc.appendChild(ac1);
   for(var i=0;i<productArray.length;i++){
     if(productArray[i].id==my_product){
       for(var j=0;j<productArray[i].images.length;j++){
-        if(productArray[i].images[i]==productArray[i].images[0]){
-          var ac1 = document.createElement("a");
-           ac1.className="prev-arrow";
-           divc.appendChild(ac1);
-        }
         var ac2 = document.createElement("a");
         var img = document.createElement("img");
         img.src=productArray[i].images[j];
@@ -163,15 +161,12 @@ function displayProducts(){
         img.className="coverflow__image";
         ac2.appendChild(img);
         divc.appendChild(ac2);
-        if(productArray[i].images[i]==productArray[i].images[0]){
-          var ac2 = document.createElement("a");
-           ac2.className="next-arrow";
-           divc.appendChild(ac2);
-        }
-       
       }
     }
   }
+  var ac2 = document.createElement("a");
+  ac2.className="next-arrow";
+  divc.appendChild(ac2);
   carousel();
     
     // var div = document.querySelector("#carousel-slides");
