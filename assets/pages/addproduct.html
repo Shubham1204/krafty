@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Elite Shoppy</title>
+    <title>Add Product</title>
     <script src="https://kit.fontawesome.com/b06605e970.js"></script>
     <!-- <link rel="stylesheet" href="../assets/stylesheets/main.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <script src="../js/model.js"></script>
 	<script src="../js/productArray.js"></script>
 	<script src="../js/componentsArray.js"></script>
-    <script src="../js/category.js"></script>
+    <!-- <script src="../js/category.js"></script> -->
 </head>
 
 <body>
@@ -78,24 +78,96 @@
                     </div>
                 </div>
 
-				<div id="banner">
-					<div id="slide" class="slider">
-						
-					</div>
-				</div>
-
         <section id="section_2">
             <div class="container">
-                <div class="tabs">
+                <div class="tabs mt-5">
                     <ul id="tab">    
-                        <!-- <li class="mx-auto active">Men's</li> -->
+                        <li class="mx-auto active">Add Product's</li>
                     </ul>
-				</div>
-				<div class="tab-content">
-						<ul id="main-product" class="row">
-	
-						</ul>
-					</div>
+                </div>
+                
+
+				<form name="addproduct">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" name="namee" id="inputName" placeholder="Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputSeller">Seller</label>
+                        <input type="text" class="form-control" id="inputSeller" placeholder="Seller">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDesc">Description</label>
+                        <input type="text-area" class="form-control" id="inputDesc" placeholder="Description">
+                      </div>
+                    <div class="form-row">
+                    <div class="form-group col-md-4">
+                      <label for="inputDiscountedPrice">Discounted Price</label>
+                      <input type="text" class="form-control" id="inputDiscountedPrice" placeholder="Discounted Price">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputPrice">Original Price</label>
+                      <input type="text" class="form-control" id="inputPrice" placeholder="Price">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputDelivery">Delivery Charges</label>
+                        <input type="text" class="form-control" id="inputDelivery" placeholder="Delivery Charges">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCondition">Condition</label>
+                            <select id="inputCondition" class="form-control">
+                              <option selected>Choose</option>
+                              <option>New</option>
+                              <option>Refurbished</option>
+                            </select>
+                          </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputCategory">Category</label>
+                        <select id="inputCategory" class="form-control">
+                          <option selected>Choose</option>
+                          <option>Charts</option>
+                          <option>Posters</option>
+                          <option>Models</option>
+                          <option>Project Files</option>
+                          <option>Fancy Dresses</option>
+                          <option>Chocolates</option>
+                          <option>Computer Projects</option>
+                          <option>Electronic Items</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputImages">No. of Images</label>
+                        <select id="inputImages" class="form-control">
+                          <option selected>Choose</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                        </select>
+                      </div>
+                    </div>
+                    <a href="https://postimages.org/">Get Image Url from Here</a>
+                    
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+
+
             </div>
         </section>
 

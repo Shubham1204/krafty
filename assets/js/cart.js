@@ -152,6 +152,7 @@ function displayCart(){
         // a.href="#";
         var img = document.createElement("img");
         img.src = x.images[0];
+        console.log(img.src);
         img.alt=x.id;
         a.appendChild(img);
         div1.appendChild(a);

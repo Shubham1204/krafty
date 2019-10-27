@@ -130,7 +130,7 @@ function searchProduct(){
 function displayAllProducts(){
     var ul = document.querySelector("#main-product");
     ul.innerHTML="";
-     for(var i=0;i< productArray.length;i++){
+     for(var i=0;i< (productArray.length/4.2);i++){
         if(productArray[i].arrival=="new"){
         
         var li = document.createElement("li");
