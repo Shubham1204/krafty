@@ -130,11 +130,11 @@ function searchProduct(){
 function displayAllProducts(){
     var ul = document.querySelector("#main-product");
     ul.innerHTML="";
-     for(var i=0;i< (productArray.length/4.2);i++){
+     for(var i=0;i<11;i++){
         if(productArray[i].arrival=="new"){
         
         var li = document.createElement("li");
-        li.className = "product";    
+        li.className = "product pointer";    
         var div1 = document.createElement("div");
         div1.className = "img";
         var a1 = document.createElement("a");
@@ -149,6 +149,7 @@ function displayAllProducts(){
         a1.appendChild(img);
         var div2  =document.createElement("div");
         div2.className="view";
+        // li.className="pointer";   
         var span1 = document.createElement("span");
         span1.innerHTML="Quick View";
         div2.appendChild(span1);
