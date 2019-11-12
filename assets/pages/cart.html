@@ -21,42 +21,76 @@
 <body>
 
     <div id="container">
-        <nav id="header" class="navbar navbar-expand ">
-            <div class="logo navbar-brand">
-                <h1>
-                    <a href="#">
-                        <span class="float-left">K<sup>2</sup></span>
-                        <div class=" logo_name_1">Krafty</div>
-                        <div class=" logo_name_2">Korner</div>
-                    </a>
-                </h1>
-            </div>
+            <!-- <nav id="header" class="navbar navbar-expand ">
+                <div class="logo navbar-brand">
+                    <h1>
+                        <a href="#">
+                            <span class="float-left">K<sup>2</sup></span>
+                            <div class=" logo_name_1">Krafty</div>
+                            <div class=" logo_name_2">Korner</div>
+                        </a>
+                    </h1>
+                </div>
 
-            <form class="form-inline  my-0 mx-auto">
-                <input class="search-bar rounded rounded-pill form-control" type="search" id="search"
-                    placeholder="Search" aria-label="Search">
-                <button class="btn btn-search rounded  rounded-circle btn-outline-success my-2" type="submit"><i
-                        class="fas fa-search"></i></button>
-            </form>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a id="header_home" class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item dropdown">
+                <form class="form-inline  my-0 mx-auto">
+                    <input class="search-bar rounded rounded-pill form-control" type="search" id="search"
+                        placeholder="Search" aria-label="Search">
+                    <button class="btn btn-search rounded  rounded-circle btn-outline-success my-2" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="header_home" class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
 
 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i> Cart</a>
-                </li>
-            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i> Cart</a>
+                    </li>
+                </ul>
 
-        </nav>
+            </nav> -->
+            <div class="main">
+            <header class="header fixed">
+                    <a href="" class="logo">K<sup>2</sup> Krafty Korner</a>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="menu">
+                      <li><a id="header_home" href="#">Home</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#"><i class="fas fa-cart-arrow-down"></i>Cart</a></li>
+                    </ul>
+                  </header>
+                </div>
         <div id="header_bottom">
-            <div>
+            <!-- <div class="row"> -->
+                <!-- <nav id="main-navigation">     -->
+            <header class="header">
+                    
+                        <a href="" class="logo">Menu</a>
+                        <input class="submenu-btn" type="checkbox" id="submenu-btn" />
+                        <label class="submenu-icon" for="submenu-btn"><span class="navicon"></span></label>
+                        <ul class="submenu">
+                                <li></li>
+                                <li id="home"><a href="#">Home</a></li>
+                                <li id="chart"><a href="#">Chart's</a></li>
+                                <li id="poster"><a href="#">Poster's</a></li>
+                                <li id="model"><a href="#">Model's</a></li>
+                                <li id="projectfile"><a href="#">Project File's</a></li>
+                                <li id="fancydress"><a href="#">Fancy Dresse's</a></li>
+                                <li id="chocolate"><a href="#">Chocolate's</a></li>
+                                <li id="computer"><a href="#">Computer Project's</a></li>
+                                <li id="more"><a href="#">More</a></li>
+                        </ul>
+                      </header>
+                      <!-- </nav> -->
+            <!-- </div> -->
+            <!-- <div>
                 <div class="row">
                     <nav id="main-navigation">
                         <ul>
@@ -74,11 +108,12 @@
                     </nav>
 
                 </div>
-            </div>
+            </div> -->
         </div>
 
-        <div class="row mt-4">
-            <div class="cart-product left">
+        <div class="row mt-4 section group">
+          
+            <div class="cart-product span_2_of_3">
                 <h6 class="mt-4 mb-4 text-secondary">My Cart</h6>
 
                 <ul id="cart-product-detail">
@@ -87,7 +122,7 @@
 
             </div>
             <!-- <div class=""> -->
-            <div id="cart-product-total" class=" right ml-5">
+            <div id="cart-product-total" class=" ml-5 span_1_of_3">
                 <h6 class="text-uppercase mt-4 text-secondary">Price Details</h6>
                 <hr>
                 <div id="cart-total">
@@ -95,9 +130,80 @@
                 </div>
             </div>
         </div>
+        <div class="footer">
+                <div class="contain">
+                        <div class="col col-4">
+                                <div class="content">
+                                    <div class="logo">
+                                        <h1>
+                                            <a href="#">
+                                                <span class="float-left">K<sup>2</sup></span>
+                                                <div class=" logo_name_1">Krafty</div>
+                                                <div class=" logo_name_2">Korner</div>
+                                            </a>
+                                        </h1>
+                                    </div>
+                                    <h1 class=" h5">Our Aim is to Serve you the best Crafted Products!!</h1>
+                                    <div class="col social">
 
+                                    </div>
+                                </div>
+                            </div>
+               
+                <div class="col">
+                  <h1>Our Information</h1>
+                  <ul>
+                      <li>Home</li>
+                    <li>About Us</li>
+                    
+                    <li>Services</li>
+                    <li>Social</li>
+                    
+                  </ul>
+                </div>
+                
+                
+                </div>
+                <div class="col">
+                  <h1>Support</h1>
+                  <ul>
+                    <li>Contact us</li>
+                    <li>Terms Of Use</li>
+                    <li>Privacy Statement</li>
+                    
+                  </ul>
+                </div>
+                <div class="col social">
+                  <h1>Social</h1>
+                  <ul>
+                    <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+                    <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+                    <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+                  </ul>
+                </div>
+                <div class="col">
+                        <div class="content">
+                            <h1>Store Information</h1>
+                            <ul>
+                           
+                                
+                                <li><i class="fas fa-phone-alt"></i><span class="ml-2"></span> +91 9717004365</li>
+                                
+                            
+                            
+                                <li><i class="fas fa-envelope"></i>kraftykorner@gmail.com</li>
+                                
+                            
+                                <li><i class="fas fa-map-marker-alt"></i><span class="ml-2"></span>Keshav Puram, Delhi-1100355</li>
+                            
+                        </ul>
+                        </div>
+                    </div>
+              <div class="clearfix"></div>
+              </div>
+              </div>
 
-        <footer>
+        <!-- <footer>
             <div class="row">
                 <div class="col col-4">
                     <div class="content">
@@ -177,7 +283,7 @@
             <div class="row credits">
                 <h6>© 2019 Krafty Korner. All rights reserved | Design by Shubham Gupta</h6>
             </div>
-        </footer>
+        </footer> -->
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -1,7 +1,7 @@
 window.addEventListener("load", initEvents);
 
 function initEvents() {
-    document.querySelector("#search").addEventListener("keyup", searchProduct);
+    // document.querySelector("#search").addEventListener("keyup", searchProduct);
     document.querySelector("#header_home").addEventListener("click", header_home);
     document.querySelector("#home").addEventListener("click", home);
     document.querySelector("#chart").addEventListener("click", chart);
